@@ -1,0 +1,9 @@
+path: ./datasets/random_datasets/  # 数据集根目录
+train: images/train
+val: images/val
+test: images/test
+
+nc: 10  # 类别数量（根据你的数据集修改）
+names: ['pedestrian', 'people', 'bicycle', 'car', 'van', 
+        'truck', 'tricycle', 'awning-tricycle', 'bus', 'motor']  # VisDrone类别
+class_weights: [2.0, 2.0, 3.0, 0.5, 2.0, 3.0, 3.0, 3.5, 4.0, 1.5]
